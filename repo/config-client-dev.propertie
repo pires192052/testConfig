@@ -1,2 +1,1 @@
-foo = foo version 3
-test: 我是配置中心配置信息
+test = 我是配置中心配置信息
