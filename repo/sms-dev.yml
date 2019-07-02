@@ -1,0 +1,18 @@
+server:
+  port: 8086
+spring:
+  application:
+    name: sms-service
+  rabbitmq:
+    host: 119.23.105.154
+    username: coffee
+    password: coffee
+    virtual-host: /coffee
+    port: 5672
+
+leyou:
+  sms:
+    accessKeyId: LTAIc259TULYzaS7
+    accessKeySecret: 1uh79I1UAmwQ4YWsSmOgxw7JEBGA0v
+    signName: 乐优商城
+    verifyCodeTemplate: SMS_148614415
